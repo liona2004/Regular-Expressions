@@ -1,0 +1,13 @@
+the .test() method takes the regex, applies it to a string (which is placed inside the parentheses), 
+and returns true or false if your pattern finds something or not.
+
+const str = 'hello world!';
+const result = /^hello/.test(str);
+
+console.log(result); // true
+
+
+ИЛИ ТАК:
+let myString = "Hello, World!";
+let myRegex = /Hello/;
+let result = myRegex.test(myString); 
