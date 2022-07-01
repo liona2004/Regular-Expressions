@@ -11,3 +11,5 @@ console.log(result); // true
 let myString = "Hello, World!";
 let myRegex = /Hello/;
 let result = myRegex.test(myString); 
+
+!!!!!!!!Any other forms of Kevin will not match. For example, the regex /Kevin/ will not match kevin or KEVIN.
