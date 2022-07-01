@@ -33,3 +33,20 @@ ourStr.match(ourRegex);
 
 let codingRegex = /coding/; 
 let result = extractStr.match(codingRegex); 
+💕💕
+
+
+
+To search or extract a pattern more than once, you can use the global search flag: g.
+let twinkleStar = "Twinkle, twinkle, little star";
+let starRegex = /twinkle/gi; 
+let result = twinkleStar.match(starRegex);
+
+
+The wildcard character . will match any one character. The wildcard is also called dot and period
+hug, huh, hut, and hum, you can use the regex /hu./
+
+
+For example, you want to match bag, big, and bug but not bog. You can create the regex /b[aiu]g/ to do this. 
+The [aiu] is the character class that will only match the characters a, i, or u
+let vowelRegex = /[aeiou]/gi; 
