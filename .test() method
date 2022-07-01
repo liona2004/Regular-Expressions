@@ -12,4 +12,6 @@ let myString = "Hello, World!";
 let myRegex = /Hello/;
 let result = myRegex.test(myString); 
 
-!!!!!!!!Any other forms of Kevin will not match. For example, the regex /Kevin/ will not match kevin or KEVIN.
+!!!!!!!!Any other forms of Kevin will not match. For example, the regex /Kevin/ will not match kevin or KEVIN
+
+You can do this by adding more patterns with more OR operators separating them, like /dog|cat|bird|fish/
