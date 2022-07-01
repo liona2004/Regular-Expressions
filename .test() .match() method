@@ -15,3 +15,21 @@ let result = myRegex.test(myString);
 !!!!!!!!Any other forms of Kevin will not match. For example, the regex /Kevin/ will not match kevin or KEVIN
 
 You can do this by adding more patterns with more OR operators separating them, like /dog|cat|bird|fish/
+the flag that ignores case - the i flag. 
+/ignorecase/i. This regex can match the strings ignorecase, igNoreCase, and IgnoreCase.
+
+
+'string'.match(/regex/);
+/regex/.test('string');
+
+
+You can also extract the actual matches you found with the .match() method.
+"Hello, World!".match(/Hello/);
+let ourStr = "Regular expressions";
+
+
+let ourRegex = /expressions/;
+ourStr.match(ourRegex);
+
+let codingRegex = /coding/; 
+let result = extractStr.match(codingRegex); 
