@@ -53,3 +53,4 @@ let vowelRegex = /[aeiou]/gi;
 
 Inside a character set, you can define a range of characters to match using a hyphen character: -.
 For example, to match lowercase letters a through e you would use [a-e]
+let myRegex = /[h-s2-6]/gi; // - неограничено только буквами, можно использовать и числа
